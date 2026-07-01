@@ -65,7 +65,7 @@ spec:
             secretKeyRef:
               name: general-secrets
               key: hash_salt
-        - name: PUMPWOOD_COMUNICATION__CRYPTO_FERNET_KEY
+        - name: PUMPWOOD_COMMUNICATION__CRYPTO_FERNET_KEY
           valueFrom:
             secretKeyRef:
               name: general-secrets
